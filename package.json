@@ -1,25 +1,32 @@
 {
-  "name": "Basic Authentication",
-  "version": "1.0.0",
-  "description": "Basic Authentication",
-  "author": "Thanh Tung",
-  "private": true,
-  "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
-    "build": "nuxt build",
-    "start": "cross-env NODE_ENV=production node server/index.js",
-    "generate": "nuxt generate"
-  },
-  "dependencies": {
-    "@nuxtjs/axios": "^5.0.0",
-    "body-parser": "^1.18.3",
-    "cross-env": "^5.2.0",
-    "express": "^4.16.3",
-    "express-session": "^1.15.6",
-    "nuxt": "^2.0.0",
-    "whatwg-fetch": "^3.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^1.11.0"
-  }
+    "name": "Basic-Authentication",
+    "version": "1.0.0",
+    "description": "Basic Authentication",
+    "author": "Thanh Tung",
+    "private": true,
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+        "build": "nuxt build",
+        "start": "cross-env NODE_ENV=production node server/index.js",
+        "generate": "nuxt generate"
+    },
+    "dependencies": {
+        "@nuxtjs/axios": "^5.0.0",
+        "bcrypt-nodejs": "0.0.3",
+        "body-parser": "^1.18.3",
+        "connect-mongo": "^2.0.3",
+        "cross-env": "^5.2.0",
+        "express": "^4.16.3",
+        "express-session": "^1.15.6",
+        "jsonwebtoken": "^8.4.0",
+        "mongoose": "^5.4.3",
+        "morgan": "^1.9.1",
+        "nuxt": "^2.0.0",
+        "passport": "^0.4.0",
+        "passport-jwt": "^4.0.0",
+        "whatwg-fetch": "^3.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.11.0"
+    }
 }
